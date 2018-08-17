@@ -16,9 +16,22 @@ body {
      padding: 20px;
 }
 
+.jumbotron-container h1 {
+	font-family: Lucida Console;
+	font-size: 72px;
+}
 .jumbotron-container {
 	position: relative;
      margin-top: 50px;
      margin-bottom: 20px;
      padding: 20px;
+}
+
+.project {
+	margin-left: 20px;
+}
+
+p {
+	font-family: Calibri;
+	font-size: 16px;
 }
