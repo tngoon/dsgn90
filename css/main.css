@@ -4,7 +4,7 @@
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector p {
+#example-id-selector {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
 	color: #CC00AA;
 }
@@ -12,8 +12,30 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
      padding: 20px;
+}
+
+h1, h2, h3, p, li, a {
+    font-family: Avenir;
+}
+
+p {
+    font-size: 18px;
+}
+
+.project a {
+   text-align: center;
+   display: block;
+   margin-bottom: 20px;
+}
+
+.project .img-thumbnail {
+    margin: 10px;
+    height: 200px;
+}
+
+.project-text {
+    display: none;
 }
 
 .jumbotron-container {
@@ -21,4 +43,13 @@ body {
      margin-top: 50px;
      margin-bottom: 20px;
      padding: 20px;
+}
+
+#profile-pic {
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+#resume {
+    color: #ffffff;
 }
