@@ -5,13 +5,6 @@
 	<title>Personal Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- this is a comment in HTML -->
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
@@ -38,7 +31,7 @@
 		<h1>Tricia Ngoon</h1>
 	</div>
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row" id="about">
 			<div class="col-md-2" id="profile">
 				<div>
 					<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
@@ -46,7 +39,7 @@
 				</div>
 			</div>
 			<br><br>
-			<div class="col-md-10" id="about" style="position: right">
+			<div class="col-md-10" style="position: right">
 				<!-- p means paragraph -->
 				<p>I am a fourth-year Ph.D student in Cognitive Science at UCSD. I work with Dr. Scott Klemmer and collaborate with Dr. Caren Walker. My research focuses on scaffolding creativity and problem-solving in education.</p>
 				<br>
@@ -73,7 +66,7 @@
 					<img src="images/creative.jpg" class="img-thumbnail" alt="Lorem Pixel image">
 					<h4>Creative Education</h4>
 				</a>
-				<p class="project-text">We hypothesize that metacognitive scaffolding techniques can help learners better monitor and improve their creative learning and skills.</p>
+				<p class="project-text">Learning creative skills often occurs informally through finding online tutorials or other resources. We hypothesize that metacognitive scaffolding techniques can help learners better monitor and improve their creative learning and skills.</p>
 			</div>
 			<div class="col-md-4 col-lg-4" id="project3">
 				<a href="#">
@@ -87,7 +80,7 @@
 					<img src="images/replay.png" class="img-thumbnail" alt="Lorem Pixel image">
 					<h4>Contextual Assistance</h4>
 				</a>
-				<p class="project-text">Creative tools are often highly complex and difficult for novices to learn. We developed RePlay, an application-agnostic Mac OS panel that presents tutorial videos to users in their own context.</p>
+				<p class="project-text">Creative tools are often highly complex and difficult for novices to learn. We developed RePlay, an application-agnostic Mac OS panel that recommends tutorial videos to users in their own context.</p>
 			</div>
 		</div>
 	</div>
@@ -106,9 +99,7 @@
 		<h4>Contact</h4>
 	</div>
 	<div id="contact">
-		<a href="#">tngoon@ucsd.edu</a>
-		<!-- <a href="mailto:tngoon" class="fa fa-envelope fa-lg"></a>
-		<a href="#" class="fa fa-github fa-lg"></a> -->
+		<a href="mailto:tngoon@ucsd.edu">tngoon@ucsd.edu</a>
 	</div>
 </body>
 <script src="https://code.jquery.com/jquery.js"></script>
