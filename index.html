@@ -14,6 +14,40 @@
     <![endif]-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Steel Bridge</a>
+          <a class="dropdown-item" href="#">Solidworks Design Team Project</a>
+          <a class="dropdown-item" href="#">GIS Programming</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 </head>
 
 <body>
@@ -23,6 +57,7 @@
 		<h1 style="color:blue;">Derik Escobar</h1>
 	</div>
 	<div class="container-fluid">
+		<h2 style="color:blue;">About</h2>
 		<div class="row">
 			<div class="col-md-4 col-md-offset-2" id="profile">
 				<div>
@@ -38,7 +73,7 @@
 			</div>
 		</div>
 		<br>
-		<div class="row col-md-12">
+		<div class="row col-md-12" id="projects">
 			<h2 style="color:blue;">Projects</h2>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
@@ -49,21 +84,21 @@
 			<div class="project col-md-4" id="project1">
 				<a href="#">
 					<img src="C:\Users\Derik\Desktop\d1escoba.github.io\images\SCSE steel bridge photo.jpg" class="img-thumbnail">
-					<p style="color:blue;">Steel Bridge</p>
+					<h3 style="color:orange;">Steel Bridge</h3>
 				</a>
 				<p style="color:red;" class="project-text" style="font-family:verdana;">I participated in a steel bridge competition team at UCSD that works school year around to compete for best bridge at a conference in the spring.</p>
 			</div>
 			<div class="project" id="project2">
 				<a href="#">
 					<img src="C:\Users\Derik\Pictures\SE 3 term project assembly with funnel.JPG" class="img-thumbnail" alt="Lorem Pixel image">
-					<p style="color:blue;">Solidworks Design Team Project</p>
+					<h3 style="color:orange;">Solidworks Design Team Project</h3>
 				</a>
 				<p style="color:red;" class="project-text" style="font-family:verdana;">In this project, we had an assignment in my structural engineering class where we had to use a design program called solidworks in order to create an obstacle course like assembly for a ball to run through. We also had to include pieces of created from arcylic and 3D printers.</p>
 			</div>
 			<div class="project" id="project3">
 				<a href="#">
 					<img src="C:\Users\Derik\Pictures\Senior project pictures\12939480_882498948525988_1312305856_n.jpg" class="img-thumbnail" alt="Lorem Pixel image">
-					<p style="color:blue;">GIS Programing</p>
+					<h3 style="color:orange;">GIS Programing</h3>
 				</a>
 				<body style="background-color:black;">
 				<p style="color:red;" class="project-text" style="font-family:verdana;"> GIS(Geographic Information System) is a program I used two summers ago at the Long Beach Town Center Hall with main coordinator of the program for the system. We used population, income, gender,race and other trends to analyze maps to learn more about the city and it's people. It is even used to track all the piping system and sewers underground and their locations and stating the smallest of details of the pipes from material type, created date and lengths.</p>
@@ -71,8 +106,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="row col-md-12">
+	<div class="row col-md-12" id="contact">
 		<h4 style="color:blue;">Contact</h4>
+	
 	</div>
 	<div class="contact">
 		<a href="#">d1escoba@ucsd.edu</a>
