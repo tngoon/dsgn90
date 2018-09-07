@@ -13,7 +13,8 @@
    the CSS to the page. feel free to remove it once the link is working. */
 body {
      border: 1px dotted gray;
-     padding: 20px;
+     padding: 40px;
+     background-color: black;
 }
 
 .jumbotron-container {
@@ -21,4 +22,22 @@ body {
      margin-top: 50px;
      margin-bottom: 20px;
      margin-left: 500px;     padding: 20px;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+img {
+    border: 20px solid #ddd;
+    border-radius: 20px;
+    padding: 15px;
+    width: 400px;
+}
+
+#resume {
+    color: white;
+}
+
+.project-text {
+    color: red;
 }
